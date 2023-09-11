@@ -1,0 +1,181 @@
+body,
+html {
+    margin: 0;
+
+    font-family: 'Nunito', sans-serif;
+    background-color: #282c34;
+    
+    
+    
+}
+
+.container{
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+header #name{
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 15px;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+header #position{
+    margin-top: 0;
+    letter-spacing: 5px;
+    color:#61afef;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+header img{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+article {
+    margin: auto;
+    max-width: 700px;
+}
+.descritive-text{
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans',
+    sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 23px;
+    width: 90%;
+
+}
+
+#social-media {
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#social-media a{
+    color: #61afef;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#social-media a:hover{
+        color: #da4176;
+            cursor: pointer;
+            transform: scale(1.1);
+}
+
+
+.icon-social {
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.icon-social p {
+    display: flex;
+
+
+}
+.secondary-text{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 1px solid #61afef;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#copyright p{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+.has-text-align{
+    text-align: center;
+}
+
+strong{
+    color:#61afef
+}
+
+#projects a{
+    color: #61afef;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#project-main-title {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    z-index: 2;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+#project-tile h4{
+    text-transform: uppercase;
+}
+
+#project-tile p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#dailydinner,
+#kamisama,
+#landing-page {
+    display: inline;
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#dailydinner:hover,
+#kamisama:hover,
+#landing-page:hover {
+    transform: scale(1.03);
+}
+
+.project-imgs {
+    width: 400px;
+}
+
+#project-title {
+    transition: all 0.3s;
+}
+
+#project-title:hover {
+    color: #da4176;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.final{
+    margin: 80px;
+}
