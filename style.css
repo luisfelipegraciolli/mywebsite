@@ -100,8 +100,11 @@ article {
     font-family: 'Josefin Sans';
     font-size: 15px;
     font-weight: 800;
-    letter-spacing: 5px;
-    margin: 5px;
+    letter-spacing: 2px;
+    margin: 10px
+}
+#copyright:last-child{
+    margin-bottom: 18px;
 }
 .has-text-align{
     text-align: center;
@@ -179,3 +182,4 @@ strong{
 .final{
     margin: 80px;
 }
+
